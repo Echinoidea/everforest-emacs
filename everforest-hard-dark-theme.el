@@ -310,7 +310,14 @@
 
 
    ;; vterm
-   `(term-color-blue ((t (:foreground "#ff0000" :background "#000000"))))
+   `(term-color-black ((t (:foreground ,everforest-hard-dark-black :background ,everforest-hard-dark-black))))
+   `(term-color-red ((t (:foreground ,everforest-hard-dark-red :background ,everforest-hard-dark-red))))
+   `(term-color-green ((t (:foreground ,everforest-hard-dark-green :background ,everforest-hard-dark-green))))
+   `(term-color-yellow ((t (:foreground ,everforest-hard-dark-yellow :background ,everforest-hard-dark-yellow))))
+   `(term-color-blue ((t (:foreground ,everforest-hard-dark-blue :background ,everforest-hard-dark-blue))))
+   `(term-color-magenta ((t (:foreground ,everforest-hard-dark-purple :background ,everforest-hard-dark-purple))))
+   `(term-color-cyan ((t (:foreground ,everforest-hard-dark-cyan :background ,everforest-hard-dark-cyan))))
+   `(term-color-white ((t (:foreground ,everforest-hard-dark-silver :background ,everforest-hard-dark-silver))))
 
 
    ;; man
