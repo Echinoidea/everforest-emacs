@@ -28,7 +28,7 @@
 ;;; Code:
 
 (deftheme everforest-hard-dark
-  "Everforest Hard Dark - sainnhe/everforest hard dark port to emacs")
+  "Everforest Hard Dark - sainnhe/everforest hard dark port to emacs. Echinoidea fork.")
 
 (defvar everforest-hard-dark-colors-alist
   (let ((colors `(("everforest-hard-dark-accent"   . "#a7c080")
@@ -307,6 +307,11 @@
    `(eshell-ls-symlink    ((t (:foreground ,everforest-hard-dark-cyan :weight bold))))
    `(eshell-ls-unreadable ((t (:foreground ,everforest-hard-dark-mono-1))))
    `(eshell-prompt        ((t (:inherit minibuffer-prompt))))
+
+
+   ;; vterm
+   `(term-color-blue ((t (:foreground "#ff0000" :background "#000000"))))
+
 
    ;; man
    `(Man-overstrike ((t (:foreground ,everforest-hard-dark-green :weight bold))))
